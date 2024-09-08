@@ -1,0 +1,113 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    top: 30px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 56px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-item {
+    color: #F92323;
+    font-size: 38.81px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.horizontal-line {
+    width: 1920px;
+    height: 1px;
+    position: absolute;
+    top: 103.5px;
+    border-top: 1px solid black;
+}
+
+.navigation {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 128px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+}
+
+.nav-item {
+    color: black;
+    font-size: 38.81px;
+    font-weight: 600;
+}
+
+.main-content {
+    width: 100%;
+    position: absolute;
+    top: 206px;
+    background: #D9D9D9;
+    padding: 0 50px;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+}
+
+.why-choose-us {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.feature {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.feature-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.design-section {
+    margin: 40px 0;
+}
+
+.design-item {
+    display: inline-block;
+    width: 407px;
+    margin: 10px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.design-item img {
+    width: 100%;
+    height: auto;
+}
+
+.design-session {
+    text-align: center;
+    margin: 40px;
